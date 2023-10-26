@@ -3,6 +3,7 @@ import './App.css';
 import React,{useState} from 'react';
 import Component1 from './Components/Component1';
 import Component2 from './Components/Component2';
+import Component3 from './Components/Component3';
 
 function App() {
   const [data,setData]=useState('');
@@ -44,6 +45,7 @@ function App() {
       }
       <Component1 />
       <Component2 />
+      <Component3 />
     </div>
   );
 }
